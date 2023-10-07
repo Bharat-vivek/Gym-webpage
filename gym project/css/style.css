@@ -1,0 +1,117 @@
+body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(image/training-828726_1280.jpg);
+            font-family: Baloo Bhai, cursive;
+            background-size: cover;
+
+
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 60px;
+            top: 1%;
+        }
+
+        .left img {
+            width: 136px;
+        }
+
+        .left div {
+            text-align: center;
+            color: white;
+            line-height: 19px;
+            font-size: 18px;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            /* border: 2px solid green; */
+
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 4%;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 8px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: Baloo Bhai, cursive;
+        }
+
+        .btn:hover {
+            background-color: rgb(80, 77, 77);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 120px 471px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 30px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container .button {
+            display: block;
+            width: 83%;
+            margin: 20px auto;
+            border-radius: 43px;
+            border: 2px solid white;
+            font-size: 22px;
+            font-family: cursive;
+
+
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 4px;
+            /* border: 2px solid white; */
+            margin: 10px auto;
+            font-size: 25px;
+            font-family: cursive;
+        }
