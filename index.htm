@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All time fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(image/training-828726_1280.jpg);
+            font-family: Baloo Bhai, cursive;
+            background-size: cover;
+
+
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 60px;
+            top: 1%;
+        }
+
+        .left img {
+            width: 136px;
+        }
+
+        .left div {
+            text-align: center;
+            color: white;
+            line-height: 19px;
+            font-size: 18px;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            /* border: 2px solid green; */
+
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 4%;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 21px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 8px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: Baloo Bhai, cursive;
+        }
+
+        .btn:hover {
+            background-color: rgb(80, 77, 77);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 120px 471px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 30px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container .button {
+            display: block;
+            width: 83%;
+            margin: 20px auto;
+            border-radius: 43px;
+            border: 2px solid white;
+            font-size: 22px;
+            font-family: cursive;
+
+
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 4px;
+            /* border: 2px solid white; */
+            margin: 10px auto;
+            font-size: 25px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/sports-3735288_1280.png" alt="">
+            <div>All Time Fitness</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Odisha</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" name="" id="Name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" name="" id="Age" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" name="" id="Gender" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" name="" id="Locality" placeholder="Enter your Locality">
+            </div>
+
+            <button class="button">Submit</button>
+            <button class="button">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
